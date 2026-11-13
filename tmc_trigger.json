@@ -1,0 +1,80 @@
+[
+	{
+		"type": "DAILY",
+		"interval": 1,
+		"startDate": "2023-07-18",
+		"timeZone": "Europe/Berlin",
+		"atTimes": {
+			"type": "AT_INTERVALS",
+			"startTime": "00:00",
+			"endTime": "23:59",
+			"interval": 10
+		},
+		"name": "daily_every_10min"
+	},
+	{
+		"type": "ONCE",
+		"startDate": "2023-11-02",
+		"timeZone": "Europe/Berlin",
+		"atTimes": {
+			"type": "AT_TIME",
+			"time": "13:00"
+		},
+		"name": "daily_every_10min"
+	},
+	{
+		"type": "DAILY",
+		"interval": 1,
+		"startDate": "2023-11-02",
+		"timeZone": "Europe/Berlin",
+		"atTimes": {
+			"type": "AT_SPECIFIC_TIMES",
+			"times": [
+				"11:54",
+				"16:00"
+			]
+		}
+	},
+	{
+		"type": "MONTHLY",
+		"interval": 1,
+		"startDate": "2023-11-02",
+		"timeZone": "Europe/Berlin",
+		"atTimes": {
+			"type": "AT_TIME",
+			"time": "12:49"
+		},
+		"atDays": {
+			"type": "DAY_OF_MONTH",
+			"day": 3
+		},
+		"name": "daily_every_10min"
+	},
+	{
+		"type": "WEEKLY",
+		"interval": 2,
+		"startDate": "2023-11-02",
+		"timeZone": "Europe/Berlin",
+		"atTimes": {
+			"type": "AT_INTERVALS",
+			"startTime": "00:00",
+			"endTime": "23:59",
+			"interval": 5
+		},
+		"atDays": {
+			"type": "DAY_OF_WEEK",
+			"days": [
+				"WEDNESDAY",
+				"FRIDAY"
+			]
+		},
+		"name": "daily_every_10min"
+	},
+	{
+		"type": "CRON",
+		"startDate": "2023-11-02",
+		"timeZone": "Europe/Berlin",
+		"cronExpression": "5 6 * 5 ?",
+		"name": "daily_every_10min"
+	}
+]

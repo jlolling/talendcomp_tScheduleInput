@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.jlo.talendcomp</groupId>
-	<artifactId>jlo-talendcomp-cronparser</artifactId>
+	<artifactId>jlo-talendcomp-schedule</artifactId>
 	<version>1.4</version>
 	<dependencies>
 		<dependency>
@@ -53,12 +53,12 @@
 				</configuration>
 				<executions>
 					<execution>
-						<id>tCronInput</id>
+						<id>tScheduleInput</id>
 						<goals>
 							<goal>component</goal>
 						</goals>
 						<configuration>
-							<componentName>tCronInput</componentName>
+							<componentName>tScheduleInput</componentName>
 						</configuration>
 					</execution>
 				</executions>

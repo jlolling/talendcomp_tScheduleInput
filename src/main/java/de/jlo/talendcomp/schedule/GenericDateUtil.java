@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.jlo.talendcomp.cron;
+package de.jlo.talendcomp.schedule;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

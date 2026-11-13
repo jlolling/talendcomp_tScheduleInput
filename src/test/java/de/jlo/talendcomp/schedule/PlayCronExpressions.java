@@ -1,11 +1,11 @@
-package de.jlo.talendcomp.cron;
+package de.jlo.talendcomp.schedule;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
 import org.quartz.CronExpression;
 
-import de.jlo.talendcomp.cron.CronHelper;
+import de.jlo.talendcomp.schedule.CronHelper;
 
 public class PlayCronExpressions {
 
